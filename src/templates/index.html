@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ escape(handler.settings["title"]) }}</title>
+    <link rel="stylesheet" href="{{ static_url("pure.css") }}">
+    <style>
+        .content {
+            margin:20%;
+            min-width : 70%;
+        }
+    </style>
+</head>
+<body>
+<div class="pure-g">
+    <div class="content">
+        <div class="pure-u-1">
+                <form class="pure-form" method="post">
+                    <fieldset>
+                    <legend> Search Clan</legend>
+                        <input  class="pure-input-2-3" type="text" name="kw" placeholder="Search Clan">
+                        <input type="submit" class="pure-button pure-button-primary">
+                    </fieldset>
+                </form>
+        </div>
+        </div>
+</div>
+
+</body>
+</html>

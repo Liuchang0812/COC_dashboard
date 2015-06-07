@@ -2,7 +2,7 @@ import unittest
 import sys
 import json
 
-sys.path.append("../api")
+sys.path.append("../core")
 from api import *
 
 class apitest(unittest.TestCase):

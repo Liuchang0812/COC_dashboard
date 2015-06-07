@@ -1,7 +1,7 @@
 import json
 import requests
 
-base_url = "http://api-clashofclans.cf/json/reply/"
+base_url = "http://core-clashofclans.cf/json/reply/"
 def clan_by_name(name):
     req = {'Tag':'', 'Search':name}
     url = base_url + "ClanSearch"
